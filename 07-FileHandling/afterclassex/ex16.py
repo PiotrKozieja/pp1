@@ -1,0 +1,6 @@
+f = open("examplefile.txt", "r")
+t1 = str(f.read())
+f1 = open("copytxtfile.txt", "w")
+f1.write(t1)
+f1.close()
+f.close()
